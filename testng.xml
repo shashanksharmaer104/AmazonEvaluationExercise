@@ -14,11 +14,11 @@
 	</test> <!-- Test -->
 	
 	<test enabled="false" name="Testing on iOS Simulator">
-		<parameter name="Mobile_OS_Type" value="Android" />
+		<parameter name="Mobile_OS_Type" value="iOS" />
 		<classes>
 			<class name="testAppium.AmazonEvaluationExercise.TestClass">
 				<methods>
-					<include name="testScenario" />
+					<include name="testAmazon_iOS" />
 				</methods>
 			</class>
 		</classes>
