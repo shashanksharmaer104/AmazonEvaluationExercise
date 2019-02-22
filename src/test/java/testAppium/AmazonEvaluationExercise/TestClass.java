@@ -18,7 +18,7 @@ import io.appium.java_client.TouchAction;
 public class TestClass extends BaseClass {
 
 	@Test
-	public void testScenario() {
+	public void testAmazon_Android() {
 		try {
 			// Login Application
 			WebElement signin = driver.findElement(By.id("in.amazon.mShop.android.shopping:id/sign_in_button")); 

@@ -2,24 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92786" started-at="2019-02-14T07:06:03Z" finished-at="2019-02-14T07:07:36Z">
+  <suite name="Suite" duration-ms="101386" started-at="2019-02-22T06:24:07Z" finished-at="2019-02-22T06:25:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92786" started-at="2019-02-14T07:06:03Z" finished-at="2019-02-14T07:07:36Z">
-      <class name="testAppium.AmazonEvaluationExercise.Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testAppium.AmazonEvaluationExercise.Test@6a192cfe]" name="beforeMethod" is-config="true" duration-ms="11552" started-at="2019-02-14T07:06:03Z" finished-at="2019-02-14T07:06:14Z">
+    <test name="Testing on Android Emulator" duration-ms="101386" started-at="2019-02-22T06:24:07Z" finished-at="2019-02-22T06:25:49Z">
+      <class name="testAppium.AmazonEvaluationExercise.TestClass">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:testAppium.AmazonEvaluationExercise.TestClass@3f49dace]" name="beforeMethod" is-config="true" duration-ms="6546" started-at="2019-02-22T06:24:07Z" finished-at="2019-02-22T06:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testScenario()[pri:0, instance:testAppium.AmazonEvaluationExercise.Test@6a192cfe]" name="testScenario" duration-ms="80508" started-at="2019-02-14T07:06:14Z" finished-at="2019-02-14T07:07:35Z">
+        <test-method status="PASS" signature="testAmazon_Android()[pri:0, instance:testAppium.AmazonEvaluationExercise.TestClass@3f49dace]" name="testAmazon_Android" duration-ms="93768" started-at="2019-02-22T06:24:14Z" finished-at="2019-02-22T06:25:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScenario -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testAppium.AmazonEvaluationExercise.Test@6a192cfe]" name="afterMethod" is-config="true" duration-ms="686" started-at="2019-02-14T07:07:35Z" finished-at="2019-02-14T07:07:36Z">
+        </test-method> <!-- testAmazon_Android -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testAppium.AmazonEvaluationExercise.TestClass@3f49dace]" name="afterMethod" is-config="true" duration-ms="1050" started-at="2019-02-22T06:25:47Z" finished-at="2019-02-22T06:25:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testAppium.AmazonEvaluationExercise.Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testAppium.AmazonEvaluationExercise.TestClass -->
+    </test> <!-- Testing on Android Emulator -->
+  </suite> <!-- Suite -->
 </testng-results>
